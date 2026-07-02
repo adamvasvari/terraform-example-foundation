@@ -33,13 +33,13 @@ variable "billing_account" {
 variable "default_region" {
   description = "Default region to create resources where applicable."
   type        = string
-  default     = "us-central1"
+  default     = "europe-west3"
 }
 
 variable "default_region_2" {
   description = "Secondary default region to create resources where applicable."
   type        = string
-  default     = "us-west1"
+  default     = "europe-west10"
 }
 
 variable "default_region_gcs" {
@@ -69,13 +69,13 @@ variable "org_policy_admin_role" {
 variable "project_prefix" {
   description = "Name prefix to use for projects created. Should be the same in all steps. Max size is 3 characters."
   type        = string
-  default     = "prj"
+  default     = "vsv"
 }
 
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "fldr"
+  default     = "vsv"
 }
 
 variable "bucket_prefix" {
